@@ -55,17 +55,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // Start typing and backspacing when the DOM is fully loaded
     typeTextWithCursor(textToType, 0);
 });
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     var scrollArrow = document.getElementById('scrollArrow');
-
-//     if (scrollArrow) {
-//         // Add a click event listener
-//         scrollArrow.addEventListener('click', function() {
-//             // Smooth scroll to the about section
-//             document.querySelector('#about').scrollIntoView({
-//                 behavior: 'smooth'
-//             });
-//         });
-//     }
-// });

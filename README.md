@@ -2,7 +2,6 @@
 
 Welcome to my personal portfolio website project! This website showcases my skills, projects, and a glimpse into my journey in technology, creativity, spirituality, and science.
 
-![Portfolio Preview](./images/portfolio-preview.png)
 
 ## Table of Contents
 

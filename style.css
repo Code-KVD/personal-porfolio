@@ -14,6 +14,7 @@
     text-align: center;
     font-family: inherit;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    flex-wrap: wrap;
 }
 
 .logo img{
@@ -26,6 +27,7 @@
 
 .name{
     padding: 10px;
+    font-size: 1rem;
 }
 
 .header_left a {
@@ -68,6 +70,8 @@
 .nav-item a:hover{
     color: #f68fbf;
 }
+
+/* */
 
 .home-section {
     height: 100vh; /* Full height of the viewport */
@@ -191,7 +195,7 @@
 }
 
 .projects-section {
-    background-color: #e9ebee;
+    background-color: #f2f3f6;
     padding: 50px 0;
     text-align: center;
 }
@@ -209,8 +213,9 @@
 }
 
 .project-card {
-    width: 350px; /* Adjust size as needed */
+    width: 400px; /* Adjust size as needed */
     margin: 20px;
+    background-color:#f3f5f793;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     overflow: hidden;
@@ -407,6 +412,7 @@
     text-align: center;
     border-top: 1px solid #50597b;
     padding-top: 20px;
+    font-size: 13px;
 }
 
 @media (max-width: 768px) {
@@ -423,5 +429,3 @@
         font-size: 14px;
     }
 }
-
-

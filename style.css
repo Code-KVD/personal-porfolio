@@ -185,12 +185,243 @@
 }
 
 /* Add any additional styles as needed */
-
-.projects-section{
-    height: 100vh;
-    background-color: #f3f5f7;
-}
 .contact-section{
     height: 100vh;
     background-color: #f3f5f7;
 }
+
+.projects-section {
+    background-color: #e9ebee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-heading {
+    color:#e25295;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 350px; /* Adjust size as needed */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card h3 {
+    color: #384266;
+    padding: 25px;
+    height: 22px;
+    overflow: hidden; /*This will prevent text from spilling over the fixed height */
+    margin-bottom: 10px; /* Space between title and paragraph */
+}
+
+.project-card p {
+    padding: 0px 22px;
+    color: #5d6266;
+    align-self: center;
+    margin-bottom: auto;
+    flex-grow: 1;
+    text-align:justify;
+}
+
+.project-link {
+    display: block;
+    background-color: #f68fbf;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+}
+
+.github-link {
+    margin-top: 40px;
+}
+
+.github-link a {
+    color: #384266;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.github-link a:hover {
+    color: #f68fbf;
+}
+
+.contact-section {
+    background-color: #f3f5f7;
+    padding: 50px 0;
+    text-align: left;
+}
+
+.section-heading {
+    text-align: center;
+    color:#e25295;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 750px;
+    margin: 0 auto;
+    background:#f3f5f793;
+    padding: 55px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #384266;
+    padding: 4px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border:1px solid rgba(205, 205, 205, 0.216);
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:#d5d5d52a;
+}
+
+.form-group input:focus{
+    outline: none;
+    border: 2px solid #f68fbf;
+}
+.form-group textarea:focus{
+    outline: none;
+    border: 2px solid #f68fbf;
+}
+
+.form-group textarea {
+    resize:none;
+}
+
+.submit-button {
+    background-color: #f68fbf;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.submit-button:hover {
+    background-color: #e25295;
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        width: 75%;
+        padding: 20px;
+    }
+}
+
+.site-footer {
+    background-color:#000000ec;
+    color: white;
+    padding: 40px 0;
+    font-size: 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.footer-container > div {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-about,
+.footer-navigation,
+.footer-social,
+.footer-contact {
+    margin-bottom: 20px;
+    
+}
+.footer-about h3,
+.footer-navigation h3,
+.footer-social h3,
+.footer-contact h3{
+    padding-bottom: 8px;
+}
+
+.footer-navigation ul,
+.footer-social ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-navigation ul li,
+.footer-social a {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.site-footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+    color: #f68fbf;
+}
+
+.footer-legal {
+    text-align: center;
+    border-top: 1px solid #50597b;
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-container > div {
+        padding-bottom: 20px;
+    }
+
+    .footer-legal {
+        font-size: 14px;
+    }
+}
+
+

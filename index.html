@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sridhar-portfolio</title>
+    <title>K V D Sridhar | portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <script src="script.js"></script>
@@ -71,12 +71,88 @@
         </div>
     </section>
     <section class="projects-section" id="projects">
-        <!-- About section content -->
-        projects
+        <h2 class="section-heading">MY PROJECTS</h2>
+        <div class="projects-container">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <h3>SummarAIze: Simplify and Unify</h3>
+                <p>Effortlessly harness the power of advanced AI summarization to transform intricate texts into succinct, meaningful insights, simplifying complex information.</p>
+                <a href="https://github.com/Code-KVD/TextSummarizer" class="project-link">Learn More</a>
+            </div>
+
+            <div class="project-card">
+                <h3>PriceWise: Laptop Price Predictor</h3>
+                <p>PriceWise utilizes advanced machine learning algorithms to predict laptop prices accurately, helping you make informed purchasing decisions in the world of technology.</p>
+                <a href="https://github.com/Code-KVD/laptopPricePredictor" class="project-link">Learn More</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Next Watch:Place for your Next watch</h3>
+                <p>Next Watch is your go-to source for discovering the latest movies and TV shows, providing essential details like ratings, overviews, and more.</p>
+                <a href="https://github.com/Code-KVD/Next-Watch" class="project-link">Learn More</a>
+            </div>
+
+        </div>
+        <div class="github-link">
+            <a href="https://github.com/Code-KVD" target="_blank">View More on GitHub</a>
+        </div>
     </section>
     <section class="contact-section" id="contact">
-        <!-- About section content -->
-        contact
-    </section>
+        <h2 class="section-heading">CONTACT</h2>
+        <form class="contact-form" action="submit-form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input placeholder="Enter Your Name" ="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input placeholder="Enter Your Email" type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea placeholder="Enter Your Message" id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </section>  
+    
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Me</h3>
+                <p>I'm K V D Sridhar, a passionate frontend developer and data scientist, dedicated to creating meaningful and innovative projects. </p>
+            </div>
+            <div class="footer-navigation">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Me</h3>
+                <a href="https://www.linkedin.com/in/kvdsridhar08/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Code-KVD" target="_blank">GitHub</a>
+                <a href="https://www.instagram.com/kvd.sridhar/" target="_blank">Instagram</a>
+                <!-- Add other social media links as necessary -->
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <p>Email: kvdsridhar08@gmail.com</p>
+                <!-- Add any additional contact information here -->
+            </div>
+        </div>
+        <div class="footer-legal">
+            <p>Designed By K V D Sridhar</p>
+        </div>
+    </footer>
+    
 </body>
 </html>
